@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MyAppIntent</string>
+    <string name="brain">brain</string>
+    <string name="profil">Detail Profil</string>
+    <string name="kontak_teman">Kontak Teman</string>
+    <string name="kontak_saya">Kontak saya</string>
+    <string name="todo">TODO</string>
+    <string name="hafidh_nur_anafi">Hafidh Nur Anafi</string>
+    <string name="hafidhnafi">hafidhnafi</string>
+    <string name="hafidh_n_nafi">Hafidh N Nafi</string>
+    <string name="mama">Mama</string>
+    <string name="ttl">Tempat/Tanggal Lahir</string>
+    <string name="ttl1">Semarang , 25 Jui 1998</string>
+    <string name="universitas">Universitas</string>
+    <string name="universitas_pgri_semarang">Universitas PGRI Semarang</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="fakultas1">Fakultas Teknik dan Informatika</string>
+    <string name="program_studi">Program Studi</string>
+    <string name="informatika">Informatika</string>
+    <string name="email">Email</string>
+    <string name="email1">hafidhnur.anafi@gmail.com</string>
+    <string name="anggita">Anggita Sekar Arum</string>
+    <string name="arif_naufal_andika">Arif Naufal Andika</string>
+    <string name="hubungi">HUBUNGI</string>
+    <string name="ayu_lestari">Ayu Lestari</string>
+    <string name="fanani_bastian_ahmad">Fanani Bastian Ahmad</string>
+    <string name="kontak_teman1">KONTAK TEMAN</string>
+    <string name="fanani">Fanani Bastian Ahmad</string>
+    <string name="izzul">M Wahyu Izzul F</string>
+    <string name="ira">Ira Maria Ulfa</string>
+    <string name="heny">Heny Alfiyani R</string>
+    <string name="heni">Heni Setianingsih</string>
+    <string name="firman">Firman Arivianto</string>
+    <string name="febta">Febta Nanda Santika</string>
+    <string name="nevian">Nevian Felix G</string>
+    <string name="nisa">Khoirun Nisa</string>
+    <string name="nisrina">Nisrina L K</string>
+    <string name="rofhiq">Rofhiq Candra S</string>
+    <string name="sinta">Ichtiyari Sinta M D</string>
+    <string name="slamet">Slamet Aji Pangestu</string>
+    <string name="syaikhul">Syaikhul Umam</string>
+    <string name="my_instagram">My Instagram</string>
+    <string name="instagram">Instagram</string>
+
+
+</resources>

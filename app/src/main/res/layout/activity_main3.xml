@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main3Activity"
+        android:background="@drawable/bcground">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="429dp"
+                android:layout_height="wrap_content"
+                android:text="@string/kontak_teman1"
+                android:textAlignment="center"
+                android:background="@color/blacktowhite"
+                android:textColor="@color/white"
+                android:paddingTop="20dp"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:gravity="center">
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/anggita"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/anggita"
+                          android:textSize="30sp"
+                          android:textColor="@color/white"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubanggita"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/arif"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/arif_naufal_andika"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubarif"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/ayu"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/ayu_lestari"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubayu"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/fanani"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/fanani"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubfanani"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/febta"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/febta"
+                          android:textSize="30sp"
+                          android:textColor="@color/white"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubfebta"
+                        android:textAlignment="center"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/firman"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/firman"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubfirman"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/heni"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/heni"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:textColor="@color/white"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubheni"
+                        android:textAlignment="center"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/heny"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/heny"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:textColor="@color/white"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubheny"
+                        android:textAlignment="center"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/ira"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/ira"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubira"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/izzul"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/izzul"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubizzul"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/nevian"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/nevian"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:textColor="@color/white"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubnevian"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/nisa"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/nisa"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubnisa"
+                        android:textAlignment="center"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/nisrina"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/nisrina"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:textColor="@color/white"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:id="@+id/btn_hubnisrina"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/rofhiq"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/rofhiq"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubrofhiq"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/sinta"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/sinta"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:layout_marginLeft="70dp"
+                          android:textColor="@color/white"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btn_hubsinta"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/slamet"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/slamet"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:id="@+id/btn_hubslamet"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/syaikhul"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"/>
+
+                <TextView android:layout_width="300dp"
+                          android:layout_height="wrap_content"
+                          android:text="@string/syaikhul"
+                          android:textSize="30sp"
+                          android:textAlignment="center"
+                          android:textColor="@color/white"
+                          android:layout_marginLeft="70dp"
+                          android:paddingTop="5dp"
+                          android:layout_marginStart="70dp"/>
+                <Button
+                        android:text="@string/hubungi"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@color/headings"
+                        android:textColor="@color/white"
+                        android:id="@+id/btn_hubsyaikhul"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
